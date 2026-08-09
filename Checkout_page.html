@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" width="250" height="200" alt="a black and white computer mouse">
+            <figcaption>Computer Mouse</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <fieldset>
+            <form>
+                <label id="card-name-label" for="card-name">Card Name:<span aria-hidden="true">*</span></label>
+                <input id="card-name" name="card-name" type="text" required> 
+
+                <label for="card-number" id="card-number-label">Card Number:<span aria-hidden="true">*</span></label>
+                <input id="card-number" type="text" name="card-number" required aria-describedby = "card-number-help">
+                <p id="card-number-help">Give the proper debit card input , only SBI card.</p>
+
+                <label id="mob-num-label" for="mob-num">Mobile Number: <span aria-hidden="true">*</span>
+                </label>
+                <input type="tel" id="mob-num" name="mob-num" required>
+
+                <label for="address" id="address-id">Address:<span aria-hidden="true">*</span></label>
+                <input name="address" id="address" type="address" required>
+
+
+            </form>    
+        </fieldset>
+    </section>
+
+
+</body>
+
+</html>
